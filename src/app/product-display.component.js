@@ -24,7 +24,7 @@ var ProductDisplayComponent = (function () {
         core_1.Component({
             selector: 'my-product-display',
             templateUrl: 'app/product-display.component.html',
-            styleUrls: ['stylesheets/styles.css']
+            styleUrls: ['./styles.css']
         }), 
         __metadata('design:paramtypes', [])
     ], ProductDisplayComponent);

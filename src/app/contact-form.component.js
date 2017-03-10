@@ -30,7 +30,7 @@ var ContactFormComponent = (function () {
         core_1.Component({
             selector: 'my-contact-form',
             templateUrl: 'app/contact-form.component.html',
-            styleUrls: ['stylesheets/styles.css']
+            styleUrls: ['./styles.css']
         }), 
         __metadata('design:paramtypes', [forms_1.FormBuilder])
     ], ContactFormComponent);
