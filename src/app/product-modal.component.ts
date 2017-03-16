@@ -8,8 +8,8 @@ import { Product }                  from './product';
 @Component({
   selector: 'my-product-modal',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  templateUrl: 'app/product-modal.component.html',
-  styleUrls: [ 'app/dashboard.component.css' ],
+  templateUrl: 'product-modal.component.html',
+  styleUrls: [ 'dashboard.component.css' ],
   animations: [
     trigger('dialog', [
     transition('void => *', [

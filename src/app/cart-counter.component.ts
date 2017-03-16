@@ -8,8 +8,8 @@ import { Product }                  from './product';
 @Component({
   selector: 'my-cart-counter',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  templateUrl: 'app/cart-counter.component.html',
-  styleUrls: [ 'app/dashboard.component.css' ]
+  templateUrl: 'cart-counter.component.html',
+  styleUrls: [ 'dashboard.component.css' ]
 })
 export class CartCounterComponent implements OnChanges {
 

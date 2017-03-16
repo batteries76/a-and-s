@@ -10,8 +10,8 @@ import { ModalService } from './modal.service';
 @Component({
   selector: 'my-checkout',
   changeDetection: ChangeDetectionStrategy.Default,
-  templateUrl: 'app/checkout.component.html',
-  styleUrls: [ 'app/dashboard.component.css' ]
+  templateUrl: 'checkout.component.html',
+  styleUrls: [ 'dashboard.component.css' ]
 })
 export class CheckoutComponent implements OnChanges {
 

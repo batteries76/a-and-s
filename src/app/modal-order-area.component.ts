@@ -7,8 +7,8 @@ import { Product } from './product';
 
 @Component({
   selector: 'my-modal-order-area',
-  templateUrl: 'app/modal-order-area.component.html',
-  styleUrls: [ 'app/dashboard.component.css' ]
+  templateUrl: 'modal-order-area.component.html',
+  styleUrls: [ 'dashboard.component.css' ]
 })
 export class ModalOrderAreaComponent implements OnInit {
 
